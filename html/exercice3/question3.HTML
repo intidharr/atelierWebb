@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align ="center"><b> Inscription en licence</b></h1>
+    <fieldset>
+    <legend align ="center"> Informations personnelles  </legend>
+    <p align="center">
+    votre nom : <input type="text" name="nom " size="15" maxlength="30"><br>
+    votre prenom : <input type="text" name="prenom" size="15" maxlength="30"><br>
+    votre age : <input type="number" /><br>
+    date de naissance : <input type="date" /><br>
+    votre adresse : <textarea name="adresse" rows="5" cols="40"></textarea><br>
+    <label for="passwd">votre mot de passe : </label> <input required type="password" name="passwd" id="passwd" size="15" maxlength="30"> <br>
+    <label for="passwd">retapez votre mot de passe : </label> <input required type="password" name="passwd" id="passwd" size="15" maxlength="30">
+</p>
+</fieldset>
+    <fieldset>
+    <legend align="center"> Gestion des groupes et des options</legend>
+    <p align="center">
+     votre groupe :<input type="radio" name="groupe" id="Groupe1" value="Groupe1">Groupe1 
+     <input type="radio" name="groupe" id="Groupe2" value="Groupe2">Groupe2
+     <input type="radio" name="groupe" id="Groupe3" value="Groupe3">Groupe3 <br>
+     numero de carte d'etudiant :<input type="number" name="numero" size="15" maxlength="30"><br>
+     choissisez les options que vous desirez: 
+     <select name="option">
+         <option value="J2ee">J2ee</option>
+         <option value="Android">Android</option>
+         <option value="Net">Net</option>
+         <option value="HTML5">HTML5</option>
+         <option value="Flex">Flex</option>
+     </select><br>
+     adresse mail :<input type="email" /><br>
+     url site etudiant : <input type="url" />
+    </p>
+</fieldset>
+<p align="center">
+<a href="page4.html"><input type="submit" value="valider"></a>
+<input type="reset" value="reinitialiser">
+</p>
+</body>
+</html>
